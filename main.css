@@ -10,7 +10,9 @@
 }
 
 body {
-    background: var(--bg);
+    /*background: var(--bg);*/
+    /*background-image: url(./pixelDay/morning.png);*/
+    background-image: var(--bgi);
 }
 
 ul {
@@ -26,14 +28,16 @@ li {
 }
 
 .light-theme {
-    --bg: var(--green);
+    /*--bg: var(--green);*/
+    --bgi: url(./pixelDay/morning.png);
     --fontColor: var(--black);
     --btnBg: var(--black);
     --btnFontColor: var(--white);
 }
 
 .dark-theme {
-    --bg: var(--black);
+    /*--bg: var(--black);*/
+    --bgi: url(./pixelDay/night.png);
     --fontColor: var(--green);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
@@ -53,4 +57,24 @@ li {
 
 .btn:focus {
     outline-style: 'none';
+}
+
+.container {
+    overflow: hidden;
+}
+
+.sliding-background {
+    background: url(./pixelDay/morning.png) repeat-x;
+    height: 1920px;
+    width: 5760px;
+    animation: slide 60s linear infinite;
+}
+
+@keyframes slide {
+    0% {
+        transform: translate3d(0, 0, 0);
+    }
+    100% {
+        transform: translate3d( -1920, 0, 0 );
+    }
 }
