@@ -62,15 +62,9 @@ li {
     outline-style: 'none';
 }
 
-.container {
-    overflow: hidden;
-}
+#img {
+    object-position: 50px 0px;
 
-.sliding-background {
-    background-image: url(./pixelDay/morning.png) repeat-x;
-    /*height: 1920px;
-    width: 5760px;*/
-    animation: slide 60s linear infinite;
 }
 
 @keyframes slide {
