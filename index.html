@@ -1,22 +1,46 @@
+<!-- AUTHOR: Michael Comatas 
+     V1.0.0
+     DIGITAL RESUME OF MICHAEL COMATAS -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Website</title>
+    <title>Talmerak</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body class="light-theme">
-    <div class="imgContainer">
-        <a href="https://www.twitch.tv/talmerak">
-            <img id="twitchlogo" src="./logos/twitch.png">
-        </a>
-        <img id="youtubelogo" src="./logos/youtube.webp">
-        <img id="tiktoklogo" src="./logos/tiktok.png">
-        <img id="twitterlogo" src="./logos/twitter.png">
-        <img id="githublogo" src="./logos/github.png">
-    </div>
+    <!-- THIS TABLE IS FOR THE LOGOS / LINKS TO MY SOCIALS AT THE TOP -->
+    <table id="table" width="100%" border="0">
+        <tr>
+            <td> 
+                <a href="https://www.tiktok.com/@talmerak" target="_blank">   
+                    <img id="logo" src="./logos/tiktok.png">
+                </a>
+            </td>
+            <td> 
+                <a href="https://www.youtube.com/c/Talmerak" target="_blank">
+                    <img id="logo" src="./logos/youtube.webp"> 
+                </a>
+            </td>
+            <td>
+                <a href="https://www.twitch.tv/talmerak" target="_blank">
+                    <img id="logo" src="./logos/twitch.png">
+                </a>
+            </td>
+            <td> 
+                <a href="https://twitter.com/talmerak_" target="_blank">
+                    <img id="logo" src="./logos/twitter.png">
+                </a>
+            </td>
+            <td> 
+                <a href="https://github.com/mcomatas" target="_blank">
+                    <img id="logo" src="./logos/github.png"> 
+                </a>
+            </td>
+        </tr>
+    </table>
     <hr id="blackbar" size="1" color="black" width="99%">
     <!-- <h1>Task List</h1>
     <p id="msg">Current Tasks:</p>
@@ -37,6 +61,9 @@
     <!-- <div class="container">
         <div class="sliding-background"></div>
     </div> -->
+    <div>
+        <button class="btn">Dark</button>
+    </div>
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>
 </body>
