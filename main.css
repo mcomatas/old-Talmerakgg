@@ -30,8 +30,47 @@ li {
     list-style: square;
 }
 
-.light-theme {
-    /*--bg: var(--green);*/
+.dawn {
+    --bgi: url(./pixelDay/dawn.png);
+    --fontColor: var(--black);
+}
+
+.early-morning {
+    --bgi: url(./pixelDay/early-morning.png);
+    --fontColor: var(--black);
+}
+
+.morning {
+    --bgi: url(./pixelDay/morning.png);
+    --fontColor: var(--black);
+}
+
+.afternoon {
+    --bgi: url(./pixelDay/afternoon.png);
+    --fontColor: var(--black);
+}
+
+.evening {
+    --bgi: url(./pixelDay/evening.png);
+    --fontColor: var(--black);
+}
+
+.dusk {
+    --bgi: url(./pixelDay/dusk.png);
+    --fontColor: var(--black);
+}
+
+.midnight {
+    --bgi: url(./pixelDay/midnight.png);
+    --fontColor: var(--black);
+}
+
+.night {
+    --bgi: url(./pixelDay/night.png);
+    --fontColor: var(--black);
+}
+
+/*.light-theme {
     --bgi: url(./pixelDay/morning.png);
     --fontColor: var(--black);
     --btnBg: var(--black);
@@ -39,12 +78,11 @@ li {
 }
 
 .dark-theme {
-    /*--bg: var(--black);*/
     --bgi: url(./pixelDay/night.png);
     --fontColor: var(--green);
     --btnBg: var(--white);
     --btnFontColor: var(--black);
-}
+}*/
 
 .btn {
     position: absolute;
