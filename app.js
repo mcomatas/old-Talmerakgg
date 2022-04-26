@@ -1,24 +1,6 @@
 'use strict';
 
-const switcher = document.querySelector('.btn');
 var currentTime = new Date();
-
-/* switcher.addEventListener('click', function() {
-    
-    document.body.classList.toggle('dark-theme')
-    var className = document.body.className;
-    if( className == 'light-theme' )
-    {
-        this.textContent = "Dark";
-    }
-    else
-    {
-        this.textContent = "Light";
-    }
-    
-    console.log( 'Current class name: ' + className );
-    //document.body.classList.toggle('dark-theme')
-}); */
 
 var hour = currentTime.getHours();
 /* console.log( hour );
@@ -57,4 +39,4 @@ else if ( hour >= 2 && hour < 5 )
     document.body.classList.toggle('night');
 }
 
-console.log( document.body.className );
+// console.log( document.body.className );

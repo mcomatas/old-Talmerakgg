@@ -100,7 +100,7 @@ li {
     outline-style: 'none';
 }
 
-#table {
+#logosTable {
     position: absolute;
     width: 99%;
     border: 0;
@@ -113,6 +113,24 @@ li {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+#linksTable {
+    position: absolute;
+    top: 60%;
+    left: 22%;
+    width: 60%;
+    border: 0;
+}
+
+#link {
+    text-align: center;
+}
+
+#font {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #tal {
@@ -135,6 +153,7 @@ li {
     top: 80px;
     left: 600px;
     text-decoration: none;
+    font-size: 48px;
 }
 
 @keyframes slide {
