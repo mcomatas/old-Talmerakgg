@@ -116,6 +116,14 @@ li {
     top: 60px;
 }
 
+#twitchLink {
+    position: absolute;
+    text-align: center;
+    top: 80px;
+    left: 600px;
+    text-decoration: none;
+}
+
 @keyframes slide {
     0% {
         background-position: 0 0;
