@@ -137,9 +137,10 @@ li {
     /* display: block;
     margin-left: auto;
     margin-right: auto; */
-    position: absolute;
+    /*position: absolute;
     top: 10%;
-    left: 16%;
+    left: 16%;*/
+    text-align: center;
 }
 
 #blackbar {
