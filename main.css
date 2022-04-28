@@ -118,13 +118,14 @@ li {
 #linksTable {
     position: absolute;
     top: 60%;
-    left: 22%;
+    left: 20%;
     width: 60%;
     border: 0;
 }
 
 #link {
     text-align: center;
+    width: 250px;
 }
 
 #font {

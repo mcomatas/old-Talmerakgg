@@ -30,7 +30,7 @@ else if ( hour >= 20 && hour < 23 )
 {
     document.body.classList.toggle('dusk');
 }
-else if ( hour >= 23 && hour < 2 )
+else if ( hour >= 23 || hour < 2 )
 {
     document.body.classList.toggle('midnight');
 }
@@ -39,4 +39,5 @@ else if ( hour >= 2 && hour < 5 )
     document.body.classList.toggle('night');
 }
 
-// console.log( document.body.className );
+console.log( document.body.className );
+console.log( hour );
