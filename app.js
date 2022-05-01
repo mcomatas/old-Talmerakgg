@@ -39,5 +39,5 @@ else if ( hour >= 2 && hour < 5 )
     document.body.classList.toggle('night');
 }
 
-console.log( document.body.className );
-console.log( hour );
+// console.log( document.body.className );
+// console.log( hour );

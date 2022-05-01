@@ -1,3 +1,5 @@
+/* MAIN SECTION CSS */
+
 :root {
     --green: #00FF00;
     --white: #FFFFFF;
@@ -10,10 +12,6 @@
 }
 
 body {
-    /*background: var(--bg);*/
-    /*background-image: url(./pixelDay/morning.png);*/
-    /*background-image: var(--bgi);*/
-    /*animation: slide 60s linear infinite;*/
     background: var(--bgi);
     animation: slide 60s linear infinite;
 }
@@ -69,20 +67,6 @@ li {
     --bgi: url(./pixelDay/night.png);
     --fontColor: var(--black);
 }
-
-/*.light-theme {
-    --bgi: url(./pixelDay/morning.png);
-    --fontColor: var(--black);
-    --btnBg: var(--black);
-    --btnFontColor: var(--white);
-}
-
-.dark-theme {
-    --bgi: url(./pixelDay/night.png);
-    --fontColor: var(--green);
-    --btnBg: var(--white);
-    --btnFontColor: var(--black);
-}*/
 
 .btn {
     position: absolute;
@@ -149,15 +133,6 @@ li {
     top: 60px;
 }
 
-#twitchLink {
-    position: absolute;
-    text-align: center;
-    top: 80px;
-    left: 600px;
-    text-decoration: none;
-    font-size: 48px;
-}
-
 @keyframes slide {
     0% {
         background-position: 0 0;
@@ -167,35 +142,29 @@ li {
     }
 }
 
-/* #twitchlogo {
-    width: 48px;
-    height: 48px;
-    /*position: absolute;
-    left: 47%;*/
-    /*display: block;
+
+/* PROJECTS SECTION */
+
+.project {
+    background-color: gray;
+    width: 40%;
+    max-height: 250px;
+    overflow-y: scroll;
+}
+
+.project::-webkit-scrollbar {
+    display: none;
+}
+
+.talLogo {
+    background-image: url(./talmerak.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 180px;
+    position: relative;
+    top: -60px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
-#youtubelogo {
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    left: 30%;
-    padding: 0px;
-}
-
-#twitterlogo {
-    width: 48px;
-    height: 48px;
-}
-
-#tiktoklogo {
-    width: 48px;
-    height: 48px;
-}
-
-#githublogo {
-    width: 48px;
-    height: 48px;
-}*/
