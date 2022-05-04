@@ -17,7 +17,7 @@
 
     <hr id="blackbar" size="1" color="black" width="99%">
 
-    THIS IS A DIFFERENT SITE FOR TWITCH STUFF
+    <h1 id="projectHeader">STREAMS</h1>
 
     <!-- PLACEHOLDER FOR TWITCH EMBED -->
     <div id="twitch-embed"></div>
@@ -28,20 +28,21 @@
     <!-- CREATE A TWITCH.EMBED OBJECT THAT WILL RENDER WITH TWITCH.EMBED ELEMENT -->
     <script type="text/javascript">
         var embed = new Twitch.Embed("twitch-embed", {
-            width: 854,
-            height: 480,
+            width: 1110.2,
+            height: 624,
             channel: "northernlion",
             layout: "video",
             autoplay: false,
             //needed if page is embedded elsewhere
             parent: ["127.0.0.1"]
         });
-
         embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
         var player = embed.getPlayer();
         player.play();
-      });
+    });
     </script>
+
+    <h1 id="projectHeader"><a style="font-family: 'Courier New', Courier, monospace" href="https://www.twitch.tv/talmerak" target="_blank">TWITCH CHANNEL</a></h1>
 
     <script src="app.js"></script>
     <noscript>You need to enable JavaScript to view the full site.</noscript>

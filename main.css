@@ -8,7 +8,7 @@
 
 * {
     color: var(--fontColor);
-    font-family: Helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -17,12 +17,17 @@ body {
 }
 
 ul {
-    font-family: helvetica;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 li {
     list-style: disc;
     padding: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
 }
 
 h2 {
@@ -197,4 +202,21 @@ h2 {
     position: relative;
     top: 50px;
     /* border: solid 5px black; */
+}
+
+
+/* VIDEO SECTION */
+
+#videoTable {
+    width: 100%;
+}
+
+#video {
+    text-align: center;
+}
+
+/* STREAM SECTION */
+
+#twitch-embed {
+    text-align: center;
 }
