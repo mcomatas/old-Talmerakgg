@@ -12,7 +12,7 @@
 }
 
 body {
-    background: var(--bgi);
+    background-image: var(--bgi);
     animation: slide 60s linear infinite;
 }
 
