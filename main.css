@@ -11,10 +11,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*html, body {
-    height: 100%;
-} */
-
 body {
     background: var(--bgi);
     animation: slide 60s linear infinite;
@@ -43,42 +39,42 @@ h2 {
 }
 
 .dawn {
-    --bgi: url(./pixelDay/dawn.png);
+    --bgi: url(./pixelDay/dawn.jpg);
     --fontColor: var(--black);
 }
 
 .early-morning {
-    --bgi: url(./pixelDay/early-morning.png);
+    --bgi: url(./pixelDay/early-morning.jpg);
     --fontColor: var(--black);
 }
 
 .morning {
-    --bgi: url(./pixelDay/morning.png);
+    --bgi: url(./pixelDay/morning.jpg);
     --fontColor: var(--black);
 }
 
 .afternoon {
-    --bgi: url(./pixelDay/afternoon.png);
+    --bgi: url(./pixelDay/afternoon.jpg);
     --fontColor: var(--black);
 }
 
 .evening {
-    --bgi: url(./pixelDay/evening.png);
+    --bgi: url(./pixelDay/evening.jpg);
     --fontColor: var(--black);
 }
 
 .dusk {
-    --bgi: url(./pixelDay/dusk.png);
+    --bgi: url(./pixelDay/dusk.jpg);
     --fontColor: var(--black);
 }
 
 .midnight {
-    --bgi: url(./pixelDay/midnight.png);
+    --bgi: url(./pixelDay/midnight.jpg);
     --fontColor: var(--black);
 }
 
 .night {
-    --bgi: url(./pixelDay/night.png);
+    --bgi: url(./pixelDay/night.jpg);
     --fontColor: var(--black);
 }
 
@@ -102,7 +98,6 @@ h2 {
     position: absolute;
     width: 99%;
     border: 0;
-    /*left: 8%;*/
 }
 
 #logo {
@@ -133,12 +128,6 @@ h2 {
 }
 
 #tal {
-    /* display: block;
-    margin-left: auto;
-    margin-right: auto; */
-    /*position: absolute;
-    top: 10%;
-    left: 16%;*/
     text-align: center;
 }
 
