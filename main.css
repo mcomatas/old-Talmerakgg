@@ -39,42 +39,42 @@ h2 {
 }
 
 .dawn {
-    --bgi: url(./pixelDay/dawn.jpg);
+    --bgi: url('./pixelDay/dawn.png');
     --fontColor: var(--black);
 }
 
 .early-morning {
-    --bgi: url(./pixelDay/early-morning.jpg);
+    --bgi: url('./pixelDay/early-morning.png');
     --fontColor: var(--black);
 }
 
 .morning {
-    --bgi: url(./pixelDay/morning.jpg);
+    --bgi: url('./pixelDay/morning.png');
     --fontColor: var(--black);
 }
 
 .afternoon {
-    --bgi: url(./pixelDay/afternoon.jpg);
+    --bgi: url('./pixelDay/afternoon.png');
     --fontColor: var(--black);
 }
 
 .evening {
-    --bgi: url(./pixelDay/evening.jpg);
+    --bgi: url('./pixelDay/evening.png');
     --fontColor: var(--black);
 }
 
 .dusk {
-    --bgi: url(./pixelDay/dusk.jpg);
+    --bgi: url('./pixelDay/dusk.png');
     --fontColor: var(--black);
 }
 
 .midnight {
-    --bgi: url(./pixelDay/midnight.jpg);
+    --bgi: url('./pixelDay/midnight.png');
     --fontColor: var(--black);
 }
 
 .night {
-    --bgi: url(./pixelDay/night.jpg);
+    --bgi: url('./pixelDay/night.png');
     --fontColor: var(--black);
 }
 
