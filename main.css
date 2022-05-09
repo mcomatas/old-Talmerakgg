@@ -39,42 +39,42 @@ h2 {
 }
 
 .dawn {
-    --bgi: url('./pixelDay/dawn.png?v=0');
+    --bgi: url('./pixelDay/dawn.png?v=1');
     --fontColor: var(--black);
 }
 
 .early-morning {
-    --bgi: url('./pixelDay/early-morning.png?v=0');
+    --bgi: url('./pixelDay/early-morning.png?v=1');
     --fontColor: var(--black);
 }
 
 .morning {
-    --bgi: url('./pixelDay/morning.png?v=0');
+    --bgi: url('./pixelDay/morning.png?v=1');
     --fontColor: var(--black);
 }
 
 .afternoon {
-    --bgi: url('./pixelDay/afternoon.png?v=0');
+    --bgi: url('./pixelDay/afternoon.png?v=1');
     --fontColor: var(--black);
 }
 
 .evening {
-    --bgi: url('./pixelDay/evening.png?v=0');
+    --bgi: url('./pixelDay/evening.png?v=1');
     --fontColor: var(--black);
 }
 
 .dusk {
-    --bgi: url('./pixelDay/dusk.png?v=0');
+    --bgi: url('./pixelDay/dusk.png?v=1');
     --fontColor: var(--black);
 }
 
 .midnight {
-    --bgi: url('./pixelDay/midnight.png?v=0');
+    --bgi: url('./pixelDay/midnight.png?v=1');
     --fontColor: var(--black);
 }
 
 .night {
-    --bgi: url('./pixelDay/night.png?v=0');
+    --bgi: url('./pixelDay/night.png?v=1');
     --fontColor: var(--black);
 }
 
