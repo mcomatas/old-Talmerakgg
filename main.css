@@ -4,6 +4,7 @@
     --green: #00FF00;
     --white: #FFFFFF;
     --black: #000000;
+    --time: 0;
 }
 
 * {
@@ -12,7 +13,7 @@
 }
 
 body {
-    background-image: var(--bgi);
+    /* background-image: var(--bgi); */
     animation: slide 60s linear infinite;
 }
 
@@ -38,18 +39,18 @@ h2 {
     list-style: square;
 }
 
-.dawn {
-    --bgi: url('./pixelDay/dawn.png?v=1');
+/* .dawn {
+    --bgi: url('./pixelDay/dawn.png?v=');
     --fontColor: var(--black);
 }
 
 .early-morning {
-    --bgi: url('./pixelDay/early-morning.png?v=1');
+    --bgi: url('./pixelDay/early-morning.png?v=' );
     --fontColor: var(--black);
 }
 
 .morning {
-    --bgi: url('./pixelDay/morning.png?v=1');
+    --bgi: url('./pixelDay/morning.png?v=' );
     --fontColor: var(--black);
 }
 
@@ -92,7 +93,7 @@ h2 {
 
 .btn:focus {
     outline-style: 'none';
-}
+} */
 
 #logosTable {
     position: absolute;
