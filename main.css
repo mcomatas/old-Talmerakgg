@@ -4,7 +4,6 @@
     --green: #00FF00;
     --white: #FFFFFF;
     --black: #000000;
-    --time: 0;
 }
 
 * {
@@ -38,62 +37,6 @@ h2 {
 .list {
     list-style: square;
 }
-
-/* .dawn {
-    --bgi: url('./pixelDay/dawn.png?v=');
-    --fontColor: var(--black);
-}
-
-.early-morning {
-    --bgi: url('./pixelDay/early-morning.png?v=' );
-    --fontColor: var(--black);
-}
-
-.morning {
-    --bgi: url('./pixelDay/morning.png?v=' );
-    --fontColor: var(--black);
-}
-
-.afternoon {
-    --bgi: url('./pixelDay/afternoon.png?v=1');
-    --fontColor: var(--black);
-}
-
-.evening {
-    --bgi: url('./pixelDay/evening.png?v=1');
-    --fontColor: var(--black);
-}
-
-.dusk {
-    --bgi: url('./pixelDay/dusk.png?v=1');
-    --fontColor: var(--black);
-}
-
-.midnight {
-    --bgi: url('./pixelDay/midnight.png?v=1');
-    --fontColor: var(--black);
-}
-
-.night {
-    --bgi: url('./pixelDay/night.png?v=1');
-    --fontColor: var(--black);
-}
-
-.btn {
-    position: absolute;
-    top: 80px;
-    left: 50px;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    border: none;
-    color: var(--btnFontColor);
-    background-color: var(--btnBg);
-}
-
-.btn:focus {
-    outline-style: 'none';
-} */
 
 #logosTable {
     position: absolute;
