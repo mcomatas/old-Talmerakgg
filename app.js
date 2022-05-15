@@ -12,12 +12,6 @@ const deviceType = () => {
     return "desktop";
 };
 
-console.log( deviceType() );
-
-console.log( document.querySelector('link').href );
-document.querySelector('link').href = 'mobile.css';
-console.log( document.querySelector('link').href ); 
-
 if( deviceType() === "desktop" )
 {
     document.querySelector('link').href = 'main.css';
