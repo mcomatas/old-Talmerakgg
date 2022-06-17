@@ -94,8 +94,8 @@ h2 {
 .project {
     background-color: #f3f0ea;
     width: 95%;
-    height: 500px;
-    max-height: 500px;
+    height: 250px;
+    max-height: 250px;
     overflow-y: scroll;
     border-radius: 15px;
     display: block;
@@ -110,6 +110,7 @@ h2 {
 
 #projectBlock {
     width: 50%;
+    padding-top: 1%;
 }
 
 .talLogo {
